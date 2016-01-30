@@ -1,0 +1,70 @@
+body{
+	font-family: '微软雅黑';
+	font-weight: bolder;
+	margin:0;
+	background-image: url('../imgs/beibei2.jpg');
+	background-size: cover;
+}
+.changjing{
+	width: 590px;
+	height: 590px;
+	/*border:3px solid black;*/
+	box-shadow: 0 0 20px #000000;
+	border-radius: 10px;
+	padding: 5px;
+    margin-top:15px;
+    margin-left: 380px;
+}
+.block{
+	float:left;
+	background-color: rgba(255, 255, 255,0);
+	width: 59px;
+	height: 59px;
+	/*box-shadow: 0px 0px 1px black;*/
+	/*border-radius: 8px;*/
+}
+/*.snake{
+	background-color: rgb(104, 255, 104);
+}*/
+/*.food{
+	background:url('../imgs/shi2.png');
+}*/
+#tip{
+	width: 500px;
+	height: 350px;
+	background-size: cover;
+	position: absolute;
+	left: 400px;
+	top: 150px;
+	display: none;
+}
+#ts{
+	width: 320px;
+	height: 200px;
+	background-size: cover;
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	background-image: url('../imgs/444.png');
+}
+#select{
+	width: 200px;
+	position: absolute;
+	left: 220px;
+	top:150px;
+}
+.button{
+	margin-top: 20px;
+	width: 110px;
+	height: 110px;
+	text-align: center;
+	line-height: 150px;
+	font-size: 18px;
+	background-image: url('../imgs/anan.png');
+	background-size: cover;
+	cursor: pointer;
+}
+
+
+
+
